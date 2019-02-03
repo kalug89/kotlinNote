@@ -11,7 +11,7 @@
 /android-studio/sdk
 out/
 /tmp
-workspace.xml
+/idea/workspace.xml
 *.versionsBackup
 /idea/testData/debugger/tinyApp/classes*
 /jps-plugin/testData/kannotator
@@ -38,5 +38,7 @@ build/
 .idea/compiler.xml
 .idea/inspectionProfiles/profiles_settings.xml
 .idea/.name
-/.idea/workspace.xml
+/idea/workspace.xml
+.out/production/KotlinNote/META-INF/KotlinNote.kotlin_module
+
 kotlin-ultimate/
