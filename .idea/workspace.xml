@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b8c5325-ae7e-468f-88b9-0a8dfdb96429" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/7_Function.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/9_Conditional Statements.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/8_Vararg Parameters.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/8_Vararg Parameters.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,13 +72,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="7_Function.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="7_Function.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/7_Function.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
               <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="8_Vararg Parameters.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/8_Vararg Parameters.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="9_Conditional Statements.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/9_Conditional Statements.kt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -98,6 +112,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/Enum.kt" />
         <option value="$PROJECT_DIR$/src/7_Function.kt" />
+        <option value="$PROJECT_DIR$/src/8_Vararg Parameters.kt" />
       </list>
     </option>
   </component>
@@ -147,7 +162,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin._7_FunctionKt">
+  <component name="RunManager" selected="Kotlin._8_Vararg_ParametersKt">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -187,16 +202,6 @@
       <option name="MAIN_CLASS_NAME" value="CollectionsKt" />
       <option name="WORKING_DIRECTORY" />
     </configuration>
-    <configuration name="_2_BasicKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="KotlinNote" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="_2_BasicKt" />
-      <option name="WORKING_DIRECTORY" />
-    </configuration>
     <configuration name="_3_StringsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="KotlinNote" />
       <option name="VM_PARAMETERS" />
@@ -215,6 +220,16 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="_7_FunctionKt" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
+    <configuration name="_8_Vararg_ParametersKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="KotlinNote" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="_8_Vararg_ParametersKt" />
       <option name="WORKING_DIRECTORY" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -240,19 +255,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Kotlin._2_BasicKt" />
       <item itemvalue="Kotlin._3_StringsKt" />
       <item itemvalue="Kotlin.ArraysKt" />
       <item itemvalue="Kotlin.CollectionsKt" />
       <item itemvalue="Kotlin._7_FunctionKt" />
+      <item itemvalue="Kotlin._8_Vararg_ParametersKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin._8_Vararg_ParametersKt" />
         <item itemvalue="Kotlin._7_FunctionKt" />
         <item itemvalue="Kotlin.CollectionsKt" />
         <item itemvalue="Kotlin.ArraysKt" />
         <item itemvalue="Kotlin._3_StringsKt" />
-        <item itemvalue="Kotlin._2_BasicKt" />
       </list>
     </recent_temporary>
   </component>
@@ -282,11 +297,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32897604" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32897604" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32897604" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="7" show_stripe_button="false" />
       <window_info id="Learn" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -450,6 +465,16 @@
           <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/8_Vararg Parameters.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/9_Conditional Statements.kt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
