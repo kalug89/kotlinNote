@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b8c5325-ae7e-468f-88b9-0a8dfdb96429" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/9_Conditional Statements.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/9_Conditional Statements.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/10_Loops.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -90,11 +89,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="9_Conditional Statements.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="9_Conditional Statements.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/9_Conditional Statements.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+            <state relative-caret-position="1326">
+              <caret line="78" column="12" lean-forward="true" selection-start-line="78" selection-start-column="12" selection-end-line="78" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="10_Loops.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/10_Loops.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -118,6 +126,7 @@
         <option value="$PROJECT_DIR$/src/7_Function.kt" />
         <option value="$PROJECT_DIR$/src/8_Vararg Parameters.kt" />
         <option value="$PROJECT_DIR$/src/9_Conditional Statements.kt" />
+        <option value="$PROJECT_DIR$/src/10_Loops.kt" />
       </list>
     </option>
   </component>
@@ -172,7 +181,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin._9_Conditional_StatementsKt">
+  <component name="RunManager" selected="Kotlin._10_LoopsKt">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -192,16 +201,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ArraysKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="KotlinNote" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ArraysKt" />
-      <option name="WORKING_DIRECTORY" />
-    </configuration>
     <configuration name="CollectionsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="KotlinNote" />
       <option name="VM_PARAMETERS" />
@@ -210,6 +209,16 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="CollectionsKt" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
+    <configuration name="_10_LoopsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="KotlinNote" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="_10_LoopsKt" />
       <option name="WORKING_DIRECTORY" />
     </configuration>
     <configuration name="_7_FunctionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
@@ -265,19 +274,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Kotlin.ArraysKt" />
       <item itemvalue="Kotlin.CollectionsKt" />
       <item itemvalue="Kotlin._7_FunctionKt" />
       <item itemvalue="Kotlin._8_Vararg_ParametersKt" />
       <item itemvalue="Kotlin._9_Conditional_StatementsKt" />
+      <item itemvalue="Kotlin._10_LoopsKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin._10_LoopsKt" />
         <item itemvalue="Kotlin._9_Conditional_StatementsKt" />
         <item itemvalue="Kotlin._8_Vararg_ParametersKt" />
         <item itemvalue="Kotlin._7_FunctionKt" />
         <item itemvalue="Kotlin.CollectionsKt" />
-        <item itemvalue="Kotlin.ArraysKt" />
       </list>
     </recent_temporary>
   </component>
@@ -554,8 +563,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/9_Conditional Statements.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+        <state relative-caret-position="1326">
+          <caret line="78" column="12" lean-forward="true" selection-start-line="78" selection-start-column="12" selection-end-line="78" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/10_Loops.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
         </state>
       </provider>
     </entry>
